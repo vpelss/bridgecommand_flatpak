@@ -1,4 +1,3 @@
----
 id: org.flatpak.bc
 runtime: org.freedesktop.Platform
 runtime-version: "23.08"
