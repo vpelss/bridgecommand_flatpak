@@ -2,12 +2,12 @@ id: org.flatpak.bc
 runtime: org.freedesktop.Platform
 runtime-version: "23.08"
 sdk: org.freedesktop.Sdk
-command: wrapperbc # (cd /app/bin && ./bridgecommand)
+command: wrapperbc 
+
 modules:
   - name: portaudio
     buildsystem: cmake
     build-commands:
-      - echo "vinman portaudio"
     sources:
       - type: git
         url: https://github.com/PortAudio/portaudio.git
@@ -15,30 +15,18 @@ modules:
   - name: OpenXR
     buildsystem: cmake
     build-commands:
-      - echo "vinman openxr"
     sources:
-      - type: dir
-        path: bc/src/libs/OpenXR/OpenXR-SDK-main
-      #- type: git
-        #url: https://github.com/KhronosGroup/OpenXR-SDK.git
-        #commit: main
+      - type: git
+        url: https://github.com/KhronosGroup/OpenXR-SDK.git
+        commit: main
   - name: bc
     buildsystem: simple
     build-commands:
-      - echo "vinman bc"
       - mkdir /app/bin
       - cmake -Bbin -Ssrc
       - make -C bin
       - cp -r /run/build/bc/bin/* ${FLATPAK_DEST}/bin 
-      - ls -l /app/bin/controller
-      - ls -l /app/bin/controller/libs
-      - rm -r ${FLATPAK_DEST}/bin/controller/libs/aisparser
-      - rm -r ${FLATPAK_DEST}/bin/libs
-      - chmod -R 755 ${FLATPAK_DEST}/bin
-      - ls -l /app
-      - ls -l /app/bin
-      - export DISPLAY=:99.0
-      - alias vp="cd /app/bin && ./bridgecommand"
+      #- export DISPLAY=:99.0
     sources:
       - type: git
         url: https://github.com/bridgecommand/bc.git
@@ -47,15 +35,20 @@ modules:
     buildsystem: simple
     build-commands:
       - install -Dm755 wrapperbc.sh /app/bin/wrapperbc
-      - ls  ${FLATPAK_DEST}
-      - ls  ${FLATPAK_DEST}/bin
-      #- alias vp="cd /app/bin/hello && ./hello"
-      #- alias
     sources:
       - type: script
         dest-filename: wrapperbc.sh
         commands:
           - cd /app/bin
-          - ls -l
           - ./bridgecommand
-    finish-args:  --socket=x11 --device=dri --share=network --persist=. --socket=pulseaudio 
+
+finish-args:  
+  - --socket=x11 
+  - --device=dri 
+  - --share=network 
+  - --persist=. 
+  - --socket=pulseaudio 
+
+cleanup:
+  - ${FLATPAK_DEST}/bin/controller/libs/aisparser
+  - ${FLATPAK_DEST}/bin/libs
