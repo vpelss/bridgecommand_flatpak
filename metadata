@@ -1,0 +1,19 @@
+[Application]
+name=org.flathub.Bridgecommand
+runtime=org.freedesktop.Platform/x86_64/23.08
+sdk=org.freedesktop.Sdk/x86_64/23.08
+command=wrapperBridgecommand
+
+[Context]
+shared=network;ipc;
+sockets=x11;pulseaudio;
+devices=dri;
+persistent=.;
+
+[Extension org.flathub.Bridgecommand.Debug]
+directory=lib/debug
+autodelete=true
+no-autodownload=true
+
+[Build]
+built-extensions=org.flathub.Bridgecommand.Debug;

@@ -1,0 +1,740 @@
+[
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/iprof.cpp.o -c /run/build/bc/src/iprof.cpp",
+  "file": "/run/build/bc/src/iprof.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/iprof.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/main.cpp.o -c /run/build/bc/src/main.cpp",
+  "file": "/run/build/bc/src/main.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/main.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/AIS.cpp.o -c /run/build/bc/src/AIS.cpp",
+  "file": "/run/build/bc/src/AIS.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/AIS.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/Angles.cpp.o -c /run/build/bc/src/Angles.cpp",
+  "file": "/run/build/bc/src/Angles.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/Angles.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/Autopilot.cpp.o -c /run/build/bc/src/Autopilot.cpp",
+  "file": "/run/build/bc/src/Autopilot.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/Autopilot.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/AzimuthDial.cpp.o -c /run/build/bc/src/AzimuthDial.cpp",
+  "file": "/run/build/bc/src/AzimuthDial.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/AzimuthDial.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/Buoy.cpp.o -c /run/build/bc/src/Buoy.cpp",
+  "file": "/run/build/bc/src/Buoy.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/Buoy.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/Buoys.cpp.o -c /run/build/bc/src/Buoys.cpp",
+  "file": "/run/build/bc/src/Buoys.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/Buoys.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/Camera.cpp.o -c /run/build/bc/src/Camera.cpp",
+  "file": "/run/build/bc/src/Camera.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/Camera.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/ControlVisualiser.cpp.o -c /run/build/bc/src/ControlVisualiser.cpp",
+  "file": "/run/build/bc/src/ControlVisualiser.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/ControlVisualiser.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/DefaultEventReceiver.cpp.o -c /run/build/bc/src/DefaultEventReceiver.cpp",
+  "file": "/run/build/bc/src/DefaultEventReceiver.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/DefaultEventReceiver.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/FFTWave.cpp.o -c /run/build/bc/src/FFTWave.cpp",
+  "file": "/run/build/bc/src/FFTWave.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/FFTWave.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/GUIMain.cpp.o -c /run/build/bc/src/GUIMain.cpp",
+  "file": "/run/build/bc/src/GUIMain.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/GUIMain.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/GUIRectangle.cpp.o -c /run/build/bc/src/GUIRectangle.cpp",
+  "file": "/run/build/bc/src/GUIRectangle.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/GUIRectangle.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/HeadingIndicator.cpp.o -c /run/build/bc/src/HeadingIndicator.cpp",
+  "file": "/run/build/bc/src/HeadingIndicator.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/HeadingIndicator.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/IniFile.cpp.o -c /run/build/bc/src/IniFile.cpp",
+  "file": "/run/build/bc/src/IniFile.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/IniFile.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/LandLights.cpp.o -c /run/build/bc/src/LandLights.cpp",
+  "file": "/run/build/bc/src/LandLights.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/LandLights.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/LandObject.cpp.o -c /run/build/bc/src/LandObject.cpp",
+  "file": "/run/build/bc/src/LandObject.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/LandObject.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/LandObjects.cpp.o -c /run/build/bc/src/LandObjects.cpp",
+  "file": "/run/build/bc/src/LandObjects.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/LandObjects.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/Lang.cpp.o -c /run/build/bc/src/Lang.cpp",
+  "file": "/run/build/bc/src/Lang.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/Lang.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/Light.cpp.o -c /run/build/bc/src/Light.cpp",
+  "file": "/run/build/bc/src/Light.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/Light.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/Line.cpp.o -c /run/build/bc/src/Line.cpp",
+  "file": "/run/build/bc/src/Line.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/Line.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/Lines.cpp.o -c /run/build/bc/src/Lines.cpp",
+  "file": "/run/build/bc/src/Lines.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/Lines.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/ManOverboard.cpp.o -c /run/build/bc/src/ManOverboard.cpp",
+  "file": "/run/build/bc/src/ManOverboard.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/ManOverboard.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/MovingWater.cpp.o -c /run/build/bc/src/MovingWater.cpp",
+  "file": "/run/build/bc/src/MovingWater.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/MovingWater.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/MyEventReceiver.cpp.o -c /run/build/bc/src/MyEventReceiver.cpp",
+  "file": "/run/build/bc/src/MyEventReceiver.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/MyEventReceiver.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/NMEA.cpp.o -c /run/build/bc/src/NMEA.cpp",
+  "file": "/run/build/bc/src/NMEA.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/NMEA.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/NavLight.cpp.o -c /run/build/bc/src/NavLight.cpp",
+  "file": "/run/build/bc/src/NavLight.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/NavLight.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/Network.cpp.o -c /run/build/bc/src/Network.cpp",
+  "file": "/run/build/bc/src/Network.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/Network.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/NetworkPrimary.cpp.o -c /run/build/bc/src/NetworkPrimary.cpp",
+  "file": "/run/build/bc/src/NetworkPrimary.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/NetworkPrimary.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/NetworkSecondary.cpp.o -c /run/build/bc/src/NetworkSecondary.cpp",
+  "file": "/run/build/bc/src/NetworkSecondary.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/NetworkSecondary.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/NumberToImage.cpp.o -c /run/build/bc/src/NumberToImage.cpp",
+  "file": "/run/build/bc/src/NumberToImage.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/NumberToImage.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/OtherShip.cpp.o -c /run/build/bc/src/OtherShip.cpp",
+  "file": "/run/build/bc/src/OtherShip.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/OtherShip.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/OtherShips.cpp.o -c /run/build/bc/src/OtherShips.cpp",
+  "file": "/run/build/bc/src/OtherShips.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/OtherShips.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/OutlineScrollBar.cpp.o -c /run/build/bc/src/OutlineScrollBar.cpp",
+  "file": "/run/build/bc/src/OutlineScrollBar.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/OutlineScrollBar.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/OwnShip.cpp.o -c /run/build/bc/src/OwnShip.cpp",
+  "file": "/run/build/bc/src/OwnShip.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/OwnShip.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/RadarCalculation.cpp.o -c /run/build/bc/src/RadarCalculation.cpp",
+  "file": "/run/build/bc/src/RadarCalculation.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/RadarCalculation.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/RadarScreen.cpp.o -c /run/build/bc/src/RadarScreen.cpp",
+  "file": "/run/build/bc/src/RadarScreen.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/RadarScreen.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/Rain.cpp.o -c /run/build/bc/src/Rain.cpp",
+  "file": "/run/build/bc/src/Rain.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/Rain.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/ScenarioChoice.cpp.o -c /run/build/bc/src/ScenarioChoice.cpp",
+  "file": "/run/build/bc/src/ScenarioChoice.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/ScenarioChoice.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/ScenarioDataStructure.cpp.o -c /run/build/bc/src/ScenarioDataStructure.cpp",
+  "file": "/run/build/bc/src/ScenarioDataStructure.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/ScenarioDataStructure.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/ScrollDial.cpp.o -c /run/build/bc/src/ScrollDial.cpp",
+  "file": "/run/build/bc/src/ScrollDial.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/ScrollDial.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/Ship.cpp.o -c /run/build/bc/src/Ship.cpp",
+  "file": "/run/build/bc/src/Ship.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/Ship.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/SimulationModel.cpp.o -c /run/build/bc/src/SimulationModel.cpp",
+  "file": "/run/build/bc/src/SimulationModel.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/SimulationModel.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/Sky.cpp.o -c /run/build/bc/src/Sky.cpp",
+  "file": "/run/build/bc/src/Sky.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/Sky.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/Sound.cpp.o -c /run/build/bc/src/Sound.cpp",
+  "file": "/run/build/bc/src/Sound.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/Sound.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/StartupEventReceiver.cpp.o -c /run/build/bc/src/StartupEventReceiver.cpp",
+  "file": "/run/build/bc/src/StartupEventReceiver.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/StartupEventReceiver.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/Terrain.cpp.o -c /run/build/bc/src/Terrain.cpp",
+  "file": "/run/build/bc/src/Terrain.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/Terrain.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/Tide.cpp.o -c /run/build/bc/src/Tide.cpp",
+  "file": "/run/build/bc/src/Tide.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/Tide.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/Utilities.cpp.o -c /run/build/bc/src/Utilities.cpp",
+  "file": "/run/build/bc/src/Utilities.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/Utilities.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/VRInterface.cpp.o -c /run/build/bc/src/VRInterface.cpp",
+  "file": "/run/build/bc/src/VRInterface.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/VRInterface.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/ExitMessage.cpp.o -c /run/build/bc/src/ExitMessage.cpp",
+  "file": "/run/build/bc/src/ExitMessage.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/ExitMessage.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/Water.cpp.o -c /run/build/bc/src/Water.cpp",
+  "file": "/run/build/bc/src/Water.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/Water.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/BCTerrainSceneNode.cpp.o -c /run/build/bc/src/BCTerrainSceneNode.cpp",
+  "file": "/run/build/bc/src/BCTerrainSceneNode.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/BCTerrainSceneNode.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/serial -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-bc.dir/BCTerrainTriangleSelector.cpp.o -c /run/build/bc/src/BCTerrainTriangleSelector.cpp",
+  "file": "/run/build/bc/src/BCTerrainTriangleSelector.cpp",
+  "output": "CMakeFiles/bridgecommand-bc.dir/BCTerrainTriangleSelector.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/libs/enet-1.3.14",
+  "command": "/usr/bin/cc -DHAS_FCNTL=1 -DHAS_GETADDRINFO=1 -DHAS_GETHOSTBYADDR_R=1 -DHAS_GETHOSTBYNAME_R=1 -DHAS_GETNAMEINFO=1 -DHAS_INET_NTOP=1 -DHAS_INET_PTON=1 -DHAS_MSGHDR_FLAGS=1 -DHAS_POLL=1 -DHAS_SOCKLEN_T=1 -I/run/build/bc/src/libs/enet-1.3.14/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG   -Wno-error -o CMakeFiles/enet.dir/callbacks.c.o -c /run/build/bc/src/libs/enet-1.3.14/callbacks.c",
+  "file": "/run/build/bc/src/libs/enet-1.3.14/callbacks.c",
+  "output": "libs/enet-1.3.14/CMakeFiles/enet.dir/callbacks.c.o"
+},
+{
+  "directory": "/run/build/bc/bin/libs/enet-1.3.14",
+  "command": "/usr/bin/cc -DHAS_FCNTL=1 -DHAS_GETADDRINFO=1 -DHAS_GETHOSTBYADDR_R=1 -DHAS_GETHOSTBYNAME_R=1 -DHAS_GETNAMEINFO=1 -DHAS_INET_NTOP=1 -DHAS_INET_PTON=1 -DHAS_MSGHDR_FLAGS=1 -DHAS_POLL=1 -DHAS_SOCKLEN_T=1 -I/run/build/bc/src/libs/enet-1.3.14/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG   -Wno-error -o CMakeFiles/enet.dir/compress.c.o -c /run/build/bc/src/libs/enet-1.3.14/compress.c",
+  "file": "/run/build/bc/src/libs/enet-1.3.14/compress.c",
+  "output": "libs/enet-1.3.14/CMakeFiles/enet.dir/compress.c.o"
+},
+{
+  "directory": "/run/build/bc/bin/libs/enet-1.3.14",
+  "command": "/usr/bin/cc -DHAS_FCNTL=1 -DHAS_GETADDRINFO=1 -DHAS_GETHOSTBYADDR_R=1 -DHAS_GETHOSTBYNAME_R=1 -DHAS_GETNAMEINFO=1 -DHAS_INET_NTOP=1 -DHAS_INET_PTON=1 -DHAS_MSGHDR_FLAGS=1 -DHAS_POLL=1 -DHAS_SOCKLEN_T=1 -I/run/build/bc/src/libs/enet-1.3.14/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG   -Wno-error -o CMakeFiles/enet.dir/host.c.o -c /run/build/bc/src/libs/enet-1.3.14/host.c",
+  "file": "/run/build/bc/src/libs/enet-1.3.14/host.c",
+  "output": "libs/enet-1.3.14/CMakeFiles/enet.dir/host.c.o"
+},
+{
+  "directory": "/run/build/bc/bin/libs/enet-1.3.14",
+  "command": "/usr/bin/cc -DHAS_FCNTL=1 -DHAS_GETADDRINFO=1 -DHAS_GETHOSTBYADDR_R=1 -DHAS_GETHOSTBYNAME_R=1 -DHAS_GETNAMEINFO=1 -DHAS_INET_NTOP=1 -DHAS_INET_PTON=1 -DHAS_MSGHDR_FLAGS=1 -DHAS_POLL=1 -DHAS_SOCKLEN_T=1 -I/run/build/bc/src/libs/enet-1.3.14/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG   -Wno-error -o CMakeFiles/enet.dir/list.c.o -c /run/build/bc/src/libs/enet-1.3.14/list.c",
+  "file": "/run/build/bc/src/libs/enet-1.3.14/list.c",
+  "output": "libs/enet-1.3.14/CMakeFiles/enet.dir/list.c.o"
+},
+{
+  "directory": "/run/build/bc/bin/libs/enet-1.3.14",
+  "command": "/usr/bin/cc -DHAS_FCNTL=1 -DHAS_GETADDRINFO=1 -DHAS_GETHOSTBYADDR_R=1 -DHAS_GETHOSTBYNAME_R=1 -DHAS_GETNAMEINFO=1 -DHAS_INET_NTOP=1 -DHAS_INET_PTON=1 -DHAS_MSGHDR_FLAGS=1 -DHAS_POLL=1 -DHAS_SOCKLEN_T=1 -I/run/build/bc/src/libs/enet-1.3.14/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG   -Wno-error -o CMakeFiles/enet.dir/packet.c.o -c /run/build/bc/src/libs/enet-1.3.14/packet.c",
+  "file": "/run/build/bc/src/libs/enet-1.3.14/packet.c",
+  "output": "libs/enet-1.3.14/CMakeFiles/enet.dir/packet.c.o"
+},
+{
+  "directory": "/run/build/bc/bin/libs/enet-1.3.14",
+  "command": "/usr/bin/cc -DHAS_FCNTL=1 -DHAS_GETADDRINFO=1 -DHAS_GETHOSTBYADDR_R=1 -DHAS_GETHOSTBYNAME_R=1 -DHAS_GETNAMEINFO=1 -DHAS_INET_NTOP=1 -DHAS_INET_PTON=1 -DHAS_MSGHDR_FLAGS=1 -DHAS_POLL=1 -DHAS_SOCKLEN_T=1 -I/run/build/bc/src/libs/enet-1.3.14/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG   -Wno-error -o CMakeFiles/enet.dir/peer.c.o -c /run/build/bc/src/libs/enet-1.3.14/peer.c",
+  "file": "/run/build/bc/src/libs/enet-1.3.14/peer.c",
+  "output": "libs/enet-1.3.14/CMakeFiles/enet.dir/peer.c.o"
+},
+{
+  "directory": "/run/build/bc/bin/libs/enet-1.3.14",
+  "command": "/usr/bin/cc -DHAS_FCNTL=1 -DHAS_GETADDRINFO=1 -DHAS_GETHOSTBYADDR_R=1 -DHAS_GETHOSTBYNAME_R=1 -DHAS_GETNAMEINFO=1 -DHAS_INET_NTOP=1 -DHAS_INET_PTON=1 -DHAS_MSGHDR_FLAGS=1 -DHAS_POLL=1 -DHAS_SOCKLEN_T=1 -I/run/build/bc/src/libs/enet-1.3.14/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG   -Wno-error -o CMakeFiles/enet.dir/protocol.c.o -c /run/build/bc/src/libs/enet-1.3.14/protocol.c",
+  "file": "/run/build/bc/src/libs/enet-1.3.14/protocol.c",
+  "output": "libs/enet-1.3.14/CMakeFiles/enet.dir/protocol.c.o"
+},
+{
+  "directory": "/run/build/bc/bin/libs/enet-1.3.14",
+  "command": "/usr/bin/cc -DHAS_FCNTL=1 -DHAS_GETADDRINFO=1 -DHAS_GETHOSTBYADDR_R=1 -DHAS_GETHOSTBYNAME_R=1 -DHAS_GETNAMEINFO=1 -DHAS_INET_NTOP=1 -DHAS_INET_PTON=1 -DHAS_MSGHDR_FLAGS=1 -DHAS_POLL=1 -DHAS_SOCKLEN_T=1 -I/run/build/bc/src/libs/enet-1.3.14/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG   -Wno-error -o CMakeFiles/enet.dir/unix.c.o -c /run/build/bc/src/libs/enet-1.3.14/unix.c",
+  "file": "/run/build/bc/src/libs/enet-1.3.14/unix.c",
+  "output": "libs/enet-1.3.14/CMakeFiles/enet.dir/unix.c.o"
+},
+{
+  "directory": "/run/build/bc/bin/libs/enet-1.3.14",
+  "command": "/usr/bin/cc -DHAS_FCNTL=1 -DHAS_GETADDRINFO=1 -DHAS_GETHOSTBYADDR_R=1 -DHAS_GETHOSTBYNAME_R=1 -DHAS_GETNAMEINFO=1 -DHAS_INET_NTOP=1 -DHAS_INET_PTON=1 -DHAS_MSGHDR_FLAGS=1 -DHAS_POLL=1 -DHAS_SOCKLEN_T=1 -I/run/build/bc/src/libs/enet-1.3.14/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG   -Wno-error -o CMakeFiles/enet.dir/win32.c.o -c /run/build/bc/src/libs/enet-1.3.14/win32.c",
+  "file": "/run/build/bc/src/libs/enet-1.3.14/win32.c",
+  "output": "libs/enet-1.3.14/CMakeFiles/enet.dir/win32.c.o"
+},
+{
+  "directory": "/run/build/bc/bin/libs/serial",
+  "command": "/usr/bin/c++  -I/run/build/bc/src/libs/serial -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bc-serial.dir/src/impl/list_ports/list_ports_linux.cc.o -c /run/build/bc/src/libs/serial/src/impl/list_ports/list_ports_linux.cc",
+  "file": "/run/build/bc/src/libs/serial/src/impl/list_ports/list_ports_linux.cc",
+  "output": "libs/serial/CMakeFiles/bc-serial.dir/src/impl/list_ports/list_ports_linux.cc.o"
+},
+{
+  "directory": "/run/build/bc/bin/libs/serial",
+  "command": "/usr/bin/c++  -I/run/build/bc/src/libs/serial -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bc-serial.dir/src/impl/list_ports/list_ports_osx.cc.o -c /run/build/bc/src/libs/serial/src/impl/list_ports/list_ports_osx.cc",
+  "file": "/run/build/bc/src/libs/serial/src/impl/list_ports/list_ports_osx.cc",
+  "output": "libs/serial/CMakeFiles/bc-serial.dir/src/impl/list_ports/list_ports_osx.cc.o"
+},
+{
+  "directory": "/run/build/bc/bin/libs/serial",
+  "command": "/usr/bin/c++  -I/run/build/bc/src/libs/serial -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bc-serial.dir/src/impl/list_ports/list_ports_win.cc.o -c /run/build/bc/src/libs/serial/src/impl/list_ports/list_ports_win.cc",
+  "file": "/run/build/bc/src/libs/serial/src/impl/list_ports/list_ports_win.cc",
+  "output": "libs/serial/CMakeFiles/bc-serial.dir/src/impl/list_ports/list_ports_win.cc.o"
+},
+{
+  "directory": "/run/build/bc/bin/libs/serial",
+  "command": "/usr/bin/c++  -I/run/build/bc/src/libs/serial -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bc-serial.dir/src/impl/unix.cc.o -c /run/build/bc/src/libs/serial/src/impl/unix.cc",
+  "file": "/run/build/bc/src/libs/serial/src/impl/unix.cc",
+  "output": "libs/serial/CMakeFiles/bc-serial.dir/src/impl/unix.cc.o"
+},
+{
+  "directory": "/run/build/bc/bin/libs/serial",
+  "command": "/usr/bin/c++  -I/run/build/bc/src/libs/serial -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bc-serial.dir/src/impl/win.cc.o -c /run/build/bc/src/libs/serial/src/impl/win.cc",
+  "file": "/run/build/bc/src/libs/serial/src/impl/win.cc",
+  "output": "libs/serial/CMakeFiles/bc-serial.dir/src/impl/win.cc.o"
+},
+{
+  "directory": "/run/build/bc/bin/libs/serial",
+  "command": "/usr/bin/c++  -I/run/build/bc/src/libs/serial -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bc-serial.dir/src/serial.cc.o -c /run/build/bc/src/libs/serial/src/serial.cc",
+  "file": "/run/build/bc/src/libs/serial/src/serial.cc",
+  "output": "libs/serial/CMakeFiles/bc-serial.dir/src/serial.cc.o"
+},
+{
+  "directory": "/run/build/bc/bin/controller",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -I/run/build/bc/src/controller/libs/aisparser/c/src -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-mc.dir/ControllerModel.cpp.o -c /run/build/bc/src/controller/ControllerModel.cpp",
+  "file": "/run/build/bc/src/controller/ControllerModel.cpp",
+  "output": "controller/CMakeFiles/bridgecommand-mc.dir/ControllerModel.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/controller",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -I/run/build/bc/src/controller/libs/aisparser/c/src -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-mc.dir/EventReceiver.cpp.o -c /run/build/bc/src/controller/EventReceiver.cpp",
+  "file": "/run/build/bc/src/controller/EventReceiver.cpp",
+  "output": "controller/CMakeFiles/bridgecommand-mc.dir/EventReceiver.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/controller",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -I/run/build/bc/src/controller/libs/aisparser/c/src -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-mc.dir/GUI.cpp.o -c /run/build/bc/src/controller/GUI.cpp",
+  "file": "/run/build/bc/src/controller/GUI.cpp",
+  "output": "controller/CMakeFiles/bridgecommand-mc.dir/GUI.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/controller",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -I/run/build/bc/src/controller/libs/aisparser/c/src -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-mc.dir/main.cpp.o -c /run/build/bc/src/controller/main.cpp",
+  "file": "/run/build/bc/src/controller/main.cpp",
+  "output": "controller/CMakeFiles/bridgecommand-mc.dir/main.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/controller",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -I/run/build/bc/src/controller/libs/aisparser/c/src -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-mc.dir/Network.cpp.o -c /run/build/bc/src/controller/Network.cpp",
+  "file": "/run/build/bc/src/controller/Network.cpp",
+  "output": "controller/CMakeFiles/bridgecommand-mc.dir/Network.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/controller",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -I/run/build/bc/src/controller/libs/aisparser/c/src -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-mc.dir/AISOverUDP.cpp.o -c /run/build/bc/src/controller/AISOverUDP.cpp",
+  "file": "/run/build/bc/src/controller/AISOverUDP.cpp",
+  "output": "controller/CMakeFiles/bridgecommand-mc.dir/AISOverUDP.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/controller",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -I/run/build/bc/src/controller/libs/aisparser/c/src -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-mc.dir/__/IniFile.cpp.o -c /run/build/bc/src/IniFile.cpp",
+  "file": "/run/build/bc/src/IniFile.cpp",
+  "output": "controller/CMakeFiles/bridgecommand-mc.dir/__/IniFile.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/controller",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -I/run/build/bc/src/controller/libs/aisparser/c/src -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-mc.dir/__/Lang.cpp.o -c /run/build/bc/src/Lang.cpp",
+  "file": "/run/build/bc/src/Lang.cpp",
+  "output": "controller/CMakeFiles/bridgecommand-mc.dir/__/Lang.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/controller",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -I/run/build/bc/src/controller/libs/aisparser/c/src -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-mc.dir/__/Utilities.cpp.o -c /run/build/bc/src/Utilities.cpp",
+  "file": "/run/build/bc/src/Utilities.cpp",
+  "output": "controller/CMakeFiles/bridgecommand-mc.dir/__/Utilities.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/controller/libs/aisparser",
+  "command": "/usr/bin/cc -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/controller/libs/aisparser/c/src -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -o CMakeFiles/bc-aisparser.dir/c/src/access.c.o -c /run/build/bc/src/controller/libs/aisparser/c/src/access.c",
+  "file": "/run/build/bc/src/controller/libs/aisparser/c/src/access.c",
+  "output": "controller/libs/aisparser/CMakeFiles/bc-aisparser.dir/c/src/access.c.o"
+},
+{
+  "directory": "/run/build/bc/bin/controller/libs/aisparser",
+  "command": "/usr/bin/cc -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/controller/libs/aisparser/c/src -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -o CMakeFiles/bc-aisparser.dir/c/src/imo.c.o -c /run/build/bc/src/controller/libs/aisparser/c/src/imo.c",
+  "file": "/run/build/bc/src/controller/libs/aisparser/c/src/imo.c",
+  "output": "controller/libs/aisparser/CMakeFiles/bc-aisparser.dir/c/src/imo.c.o"
+},
+{
+  "directory": "/run/build/bc/bin/controller/libs/aisparser",
+  "command": "/usr/bin/cc -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/controller/libs/aisparser/c/src -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -o CMakeFiles/bc-aisparser.dir/c/src/nmea.c.o -c /run/build/bc/src/controller/libs/aisparser/c/src/nmea.c",
+  "file": "/run/build/bc/src/controller/libs/aisparser/c/src/nmea.c",
+  "output": "controller/libs/aisparser/CMakeFiles/bc-aisparser.dir/c/src/nmea.c.o"
+},
+{
+  "directory": "/run/build/bc/bin/controller/libs/aisparser",
+  "command": "/usr/bin/cc -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/controller/libs/aisparser/c/src -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -o CMakeFiles/bc-aisparser.dir/c/src/seaway.c.o -c /run/build/bc/src/controller/libs/aisparser/c/src/seaway.c",
+  "file": "/run/build/bc/src/controller/libs/aisparser/c/src/seaway.c",
+  "output": "controller/libs/aisparser/CMakeFiles/bc-aisparser.dir/c/src/seaway.c.o"
+},
+{
+  "directory": "/run/build/bc/bin/controller/libs/aisparser",
+  "command": "/usr/bin/cc -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/controller/libs/aisparser/c/src -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -o CMakeFiles/bc-aisparser.dir/c/src/sixbit.c.o -c /run/build/bc/src/controller/libs/aisparser/c/src/sixbit.c",
+  "file": "/run/build/bc/src/controller/libs/aisparser/c/src/sixbit.c",
+  "output": "controller/libs/aisparser/CMakeFiles/bc-aisparser.dir/c/src/sixbit.c.o"
+},
+{
+  "directory": "/run/build/bc/bin/controller/libs/aisparser",
+  "command": "/usr/bin/cc -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/controller/libs/aisparser/c/src -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -o CMakeFiles/bc-aisparser.dir/c/src/vdm_parse.c.o -c /run/build/bc/src/controller/libs/aisparser/c/src/vdm_parse.c",
+  "file": "/run/build/bc/src/controller/libs/aisparser/c/src/vdm_parse.c",
+  "output": "controller/libs/aisparser/CMakeFiles/bc-aisparser.dir/c/src/vdm_parse.c.o"
+},
+{
+  "directory": "/run/build/bc/bin/editor",
+  "command": "/usr/bin/c++ -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-ed.dir/main.cpp.o -c /run/build/bc/src/editor/main.cpp",
+  "file": "/run/build/bc/src/editor/main.cpp",
+  "output": "editor/CMakeFiles/bridgecommand-ed.dir/main.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/editor",
+  "command": "/usr/bin/c++ -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-ed.dir/__/IniFile.cpp.o -c /run/build/bc/src/IniFile.cpp",
+  "file": "/run/build/bc/src/IniFile.cpp",
+  "output": "editor/CMakeFiles/bridgecommand-ed.dir/__/IniFile.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/editor",
+  "command": "/usr/bin/c++ -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-ed.dir/__/Lang.cpp.o -c /run/build/bc/src/Lang.cpp",
+  "file": "/run/build/bc/src/Lang.cpp",
+  "output": "editor/CMakeFiles/bridgecommand-ed.dir/__/Lang.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/editor",
+  "command": "/usr/bin/c++ -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-ed.dir/__/Utilities.cpp.o -c /run/build/bc/src/Utilities.cpp",
+  "file": "/run/build/bc/src/Utilities.cpp",
+  "output": "editor/CMakeFiles/bridgecommand-ed.dir/__/Utilities.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/editor",
+  "command": "/usr/bin/c++ -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-ed.dir/__/ScenarioDataStructure.cpp.o -c /run/build/bc/src/ScenarioDataStructure.cpp",
+  "file": "/run/build/bc/src/ScenarioDataStructure.cpp",
+  "output": "editor/CMakeFiles/bridgecommand-ed.dir/__/ScenarioDataStructure.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/editor",
+  "command": "/usr/bin/c++ -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-ed.dir/ControllerModel.cpp.o -c /run/build/bc/src/editor/ControllerModel.cpp",
+  "file": "/run/build/bc/src/editor/ControllerModel.cpp",
+  "output": "editor/CMakeFiles/bridgecommand-ed.dir/ControllerModel.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/editor",
+  "command": "/usr/bin/c++ -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-ed.dir/EventReceiver.cpp.o -c /run/build/bc/src/editor/EventReceiver.cpp",
+  "file": "/run/build/bc/src/editor/EventReceiver.cpp",
+  "output": "editor/CMakeFiles/bridgecommand-ed.dir/EventReceiver.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/editor",
+  "command": "/usr/bin/c++ -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-ed.dir/ImportExportGUI.cpp.o -c /run/build/bc/src/editor/ImportExportGUI.cpp",
+  "file": "/run/build/bc/src/editor/ImportExportGUI.cpp",
+  "output": "editor/CMakeFiles/bridgecommand-ed.dir/ImportExportGUI.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/editor",
+  "command": "/usr/bin/c++ -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-ed.dir/GUI.cpp.o -c /run/build/bc/src/editor/GUI.cpp",
+  "file": "/run/build/bc/src/editor/GUI.cpp",
+  "output": "editor/CMakeFiles/bridgecommand-ed.dir/GUI.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/editor",
+  "command": "/usr/bin/c++ -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-ed.dir/StartupEventReceiver.cpp.o -c /run/build/bc/src/editor/StartupEventReceiver.cpp",
+  "file": "/run/build/bc/src/editor/StartupEventReceiver.cpp",
+  "output": "editor/CMakeFiles/bridgecommand-ed.dir/StartupEventReceiver.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/iniEditor",
+  "command": "/usr/bin/c++ -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-ini.dir/main.cpp.o -c /run/build/bc/src/iniEditor/main.cpp",
+  "file": "/run/build/bc/src/iniEditor/main.cpp",
+  "output": "iniEditor/CMakeFiles/bridgecommand-ini.dir/main.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/iniEditor",
+  "command": "/usr/bin/c++ -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-ini.dir/__/IniFile.cpp.o -c /run/build/bc/src/IniFile.cpp",
+  "file": "/run/build/bc/src/IniFile.cpp",
+  "output": "iniEditor/CMakeFiles/bridgecommand-ini.dir/__/IniFile.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/iniEditor",
+  "command": "/usr/bin/c++ -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-ini.dir/__/Lang.cpp.o -c /run/build/bc/src/Lang.cpp",
+  "file": "/run/build/bc/src/Lang.cpp",
+  "output": "iniEditor/CMakeFiles/bridgecommand-ini.dir/__/Lang.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/iniEditor",
+  "command": "/usr/bin/c++ -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-ini.dir/__/Utilities.cpp.o -c /run/build/bc/src/Utilities.cpp",
+  "file": "/run/build/bc/src/Utilities.cpp",
+  "output": "iniEditor/CMakeFiles/bridgecommand-ini.dir/__/Utilities.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/launcher",
+  "command": "/usr/bin/c++ -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand.dir/main.cpp.o -c /run/build/bc/src/launcher/main.cpp",
+  "file": "/run/build/bc/src/launcher/main.cpp",
+  "output": "launcher/CMakeFiles/bridgecommand.dir/main.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/launcher",
+  "command": "/usr/bin/c++ -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand.dir/__/IniFile.cpp.o -c /run/build/bc/src/IniFile.cpp",
+  "file": "/run/build/bc/src/IniFile.cpp",
+  "output": "launcher/CMakeFiles/bridgecommand.dir/__/IniFile.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/launcher",
+  "command": "/usr/bin/c++ -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand.dir/__/Lang.cpp.o -c /run/build/bc/src/Lang.cpp",
+  "file": "/run/build/bc/src/Lang.cpp",
+  "output": "launcher/CMakeFiles/bridgecommand.dir/__/Lang.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/launcher",
+  "command": "/usr/bin/c++ -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand.dir/__/Utilities.cpp.o -c /run/build/bc/src/Utilities.cpp",
+  "file": "/run/build/bc/src/Utilities.cpp",
+  "output": "launcher/CMakeFiles/bridgecommand.dir/__/Utilities.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/multiplayerHub",
+  "command": "/usr/bin/c++ -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-mh.dir/main.cpp.o -c /run/build/bc/src/multiplayerHub/main.cpp",
+  "file": "/run/build/bc/src/multiplayerHub/main.cpp",
+  "output": "multiplayerHub/CMakeFiles/bridgecommand-mh.dir/main.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/multiplayerHub",
+  "command": "/usr/bin/c++ -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-mh.dir/__/IniFile.cpp.o -c /run/build/bc/src/IniFile.cpp",
+  "file": "/run/build/bc/src/IniFile.cpp",
+  "output": "multiplayerHub/CMakeFiles/bridgecommand-mh.dir/__/IniFile.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/multiplayerHub",
+  "command": "/usr/bin/c++ -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-mh.dir/__/Lang.cpp.o -c /run/build/bc/src/Lang.cpp",
+  "file": "/run/build/bc/src/Lang.cpp",
+  "output": "multiplayerHub/CMakeFiles/bridgecommand-mh.dir/__/Lang.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/multiplayerHub",
+  "command": "/usr/bin/c++ -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-mh.dir/__/Utilities.cpp.o -c /run/build/bc/src/Utilities.cpp",
+  "file": "/run/build/bc/src/Utilities.cpp",
+  "output": "multiplayerHub/CMakeFiles/bridgecommand-mh.dir/__/Utilities.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/multiplayerHub",
+  "command": "/usr/bin/c++ -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-mh.dir/__/ScenarioDataStructure.cpp.o -c /run/build/bc/src/ScenarioDataStructure.cpp",
+  "file": "/run/build/bc/src/ScenarioDataStructure.cpp",
+  "output": "multiplayerHub/CMakeFiles/bridgecommand-mh.dir/__/ScenarioDataStructure.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/multiplayerHub",
+  "command": "/usr/bin/c++ -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-mh.dir/LinesData.cpp.o -c /run/build/bc/src/multiplayerHub/LinesData.cpp",
+  "file": "/run/build/bc/src/multiplayerHub/LinesData.cpp",
+  "output": "multiplayerHub/CMakeFiles/bridgecommand-mh.dir/LinesData.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/multiplayerHub",
+  "command": "/usr/bin/c++ -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-mh.dir/Network.cpp.o -c /run/build/bc/src/multiplayerHub/Network.cpp",
+  "file": "/run/build/bc/src/multiplayerHub/Network.cpp",
+  "output": "multiplayerHub/CMakeFiles/bridgecommand-mh.dir/Network.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/multiplayerHub",
+  "command": "/usr/bin/c++ -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-mh.dir/ScenarioChoice.cpp.o -c /run/build/bc/src/multiplayerHub/ScenarioChoice.cpp",
+  "file": "/run/build/bc/src/multiplayerHub/ScenarioChoice.cpp",
+  "output": "multiplayerHub/CMakeFiles/bridgecommand-mh.dir/ScenarioChoice.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/multiplayerHub",
+  "command": "/usr/bin/c++ -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-mh.dir/ShipPositions.cpp.o -c /run/build/bc/src/multiplayerHub/ShipPositions.cpp",
+  "file": "/run/build/bc/src/multiplayerHub/ShipPositions.cpp",
+  "output": "multiplayerHub/CMakeFiles/bridgecommand-mh.dir/ShipPositions.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/multiplayerHub",
+  "command": "/usr/bin/c++ -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-mh.dir/StartupEventReceiver.cpp.o -c /run/build/bc/src/multiplayerHub/StartupEventReceiver.cpp",
+  "file": "/run/build/bc/src/multiplayerHub/StartupEventReceiver.cpp",
+  "output": "multiplayerHub/CMakeFiles/bridgecommand-mh.dir/StartupEventReceiver.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/multiplayerHub",
+  "command": "/usr/bin/c++ -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-mh.dir/EventReceiver.cpp.o -c /run/build/bc/src/multiplayerHub/EventReceiver.cpp",
+  "file": "/run/build/bc/src/multiplayerHub/EventReceiver.cpp",
+  "output": "multiplayerHub/CMakeFiles/bridgecommand-mh.dir/EventReceiver.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/repeater",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-rp.dir/main.cpp.o -c /run/build/bc/src/repeater/main.cpp",
+  "file": "/run/build/bc/src/repeater/main.cpp",
+  "output": "repeater/CMakeFiles/bridgecommand-rp.dir/main.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/repeater",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-rp.dir/__/IniFile.cpp.o -c /run/build/bc/src/IniFile.cpp",
+  "file": "/run/build/bc/src/IniFile.cpp",
+  "output": "repeater/CMakeFiles/bridgecommand-rp.dir/__/IniFile.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/repeater",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-rp.dir/__/Lang.cpp.o -c /run/build/bc/src/Lang.cpp",
+  "file": "/run/build/bc/src/Lang.cpp",
+  "output": "repeater/CMakeFiles/bridgecommand-rp.dir/__/Lang.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/repeater",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-rp.dir/__/Utilities.cpp.o -c /run/build/bc/src/Utilities.cpp",
+  "file": "/run/build/bc/src/Utilities.cpp",
+  "output": "repeater/CMakeFiles/bridgecommand-rp.dir/__/Utilities.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/repeater",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-rp.dir/__/HeadingIndicator.cpp.o -c /run/build/bc/src/HeadingIndicator.cpp",
+  "file": "/run/build/bc/src/HeadingIndicator.cpp",
+  "output": "repeater/CMakeFiles/bridgecommand-rp.dir/__/HeadingIndicator.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/repeater",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-rp.dir/ControllerModel.cpp.o -c /run/build/bc/src/repeater/ControllerModel.cpp",
+  "file": "/run/build/bc/src/repeater/ControllerModel.cpp",
+  "output": "repeater/CMakeFiles/bridgecommand-rp.dir/ControllerModel.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/repeater",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-rp.dir/EventReceiver.cpp.o -c /run/build/bc/src/repeater/EventReceiver.cpp",
+  "file": "/run/build/bc/src/repeater/EventReceiver.cpp",
+  "output": "repeater/CMakeFiles/bridgecommand-rp.dir/EventReceiver.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/repeater",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-rp.dir/GUI.cpp.o -c /run/build/bc/src/repeater/GUI.cpp",
+  "file": "/run/build/bc/src/repeater/GUI.cpp",
+  "output": "repeater/CMakeFiles/bridgecommand-rp.dir/GUI.cpp.o"
+},
+{
+  "directory": "/run/build/bc/bin/repeater",
+  "command": "/usr/bin/c++ -DASIO_HAS_STD_THREAD -DASIO_STANDALONE -DWITH_SOUND -I/run/build/bc/src/libs/enet-1.3.14/include -I/run/build/bc/src/libs/asio/include -I/run/build/bc/src/libs/Irrlicht/irrlicht-svn/include -O2 -pipe -g -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fno-omit-frame-pointer -O3 -DNDEBUG -std=gnu++11 -o CMakeFiles/bridgecommand-rp.dir/Network.cpp.o -c /run/build/bc/src/repeater/Network.cpp",
+  "file": "/run/build/bc/src/repeater/Network.cpp",
+  "output": "repeater/CMakeFiles/bridgecommand-rp.dir/Network.cpp.o"
+}
+]
