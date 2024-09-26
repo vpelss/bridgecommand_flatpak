@@ -1,0 +1,11 @@
+[Flatpak Ref]
+Title=Bridgecommand
+Name=org.flatpak.Bridgecommand
+Branch=< branch of generated ostree refs, defaults to master>
+Url=<Url of Gitlab page>
+SuggestRemoteName=<A name for the flatpak remote>
+Homepage=<URL of the homepage>
+Icon=<Direct link to an icon>
+RuntimeRepo=< Link to repo where runtime and other dependencies are eg. https://dl.flathub.org/repo/flathub.flatpakrepo>
+IsRuntime=false
+GPGKey=<base64 encoded GPG key>
