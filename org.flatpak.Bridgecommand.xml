@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>uk.co.bridgecommand.flatpak.bridgecommand</id>
+  <id>org.flathub.Bridgecommand</id>
   
   <name>Bridgecommand</name>
   <summary>An interactive 3d ship &amp; radar simulator</summary>
