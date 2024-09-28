@@ -6,5 +6,5 @@ Url=https://github.com/vpelss/bridgecommand_flatpak.git
 SuggestRemoteName=org.flatpak.Bridgecommand
 Homepage=https://www.bridgecommand.co.uk/
 Icon=<Direct link to an icon>
-RuntimeRepo=https://dl.flathub.org/repo/flathub.flatpakrepo
+RuntimeRepo=https://github.com/vpelss/bridgecommand_flatpak/repo
 IsRuntime=false
