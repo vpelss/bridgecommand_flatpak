@@ -1,0 +1,10 @@
+[Flatpak Ref]
+Title=Bridgecommand
+Name=org.flatpak.Bridgecommand
+Branch=main
+Url=https://github.com/vpelss/bridgecommand_flatpak.git
+SuggestRemoteName=org.flatpak.Bridgecommand
+Homepage=https://www.bridgecommand.co.uk/
+Icon=<Direct link to an icon>
+RuntimeRepo=https://dl.flathub.org/repo/flathub.flatpakrepo
+IsRuntime=false
