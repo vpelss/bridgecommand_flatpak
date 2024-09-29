@@ -1,8 +1,8 @@
 [Flatpak Ref]
-Title=wrapperBridgecommand 
+Title=Bridgecommand 
 Name=org.flathub.Bridgecommand
 Branch=main
-Url=https://github.com/vpelss/bridgecommand_flatpak
+Url=https://emogic.com/bridgecommand
 SuggestRemoteName=org.flathub.Bridgecommand
 Homepage=https://www.bridgecommand.co.uk/
 Icon=https://dl.flathub.org/repo/logo.svg
