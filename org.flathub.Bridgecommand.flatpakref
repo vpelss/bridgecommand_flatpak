@@ -2,9 +2,7 @@
 Title=Bridgecommand 
 Name=org.flathub.Bridgecommand
 Branch=main
-Url=https://github.com/vpelss/bridgecommand_flatpak/tree/main
-SuggestRemoteName=org.flathub.Bridgecommand
-Homepage=https://www.bridgecommand.co.uk/
-Icon=https://dl.flathub.org/repo/logo.svg
+Url=file://home/adsiltia/bridgecommand_flatpak
+SuggestRemoteName=remotename
 RuntimeRepo=https://dl.flathub.org/repo/flathub.flatpakrepo
 IsRuntime=false
