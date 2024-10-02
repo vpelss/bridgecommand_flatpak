@@ -1,3 +1,3 @@
 # bridgecommand_flatpak
 
-ok
+ok2
