@@ -1,5 +1,5 @@
 [Flatpak Ref]
-Title=Bridgecommand 
+Title=Bridgecommand
 Name=org.flathub.Bridgecommand
 Branch=main
 Url=https://github.com/vpelss/bridgecommand_flatpak
