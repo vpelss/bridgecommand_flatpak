@@ -42,7 +42,7 @@ modules:
           - ./bridgecommand
 
 finish-args:  
-  - --socket=x11 
+  - --socket=fallback-x11
   - --share=ipc
   - --device=dri 
   - --share=network 
