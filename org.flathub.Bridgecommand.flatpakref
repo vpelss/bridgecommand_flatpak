@@ -2,7 +2,7 @@
 Title=Bridgecommand
 Name=org.flathub.Bridgecommand
 Branch=main
-Url=https://github.com/vpelss/bridgecommand_flatpak
-SuggestRemoteName=remotename
+Url=https://emogic.com/bc/
+SuggestRemoteName=BridgecommandRemoteEmogic
 RuntimeRepo=https://dl.flathub.org/repo/flathub.flatpakrepo
 IsRuntime=false
