@@ -1,5 +1,0 @@
-[Runtime]
-name=org.flathub.Bridgecommand.Debug
-
-[ExtensionOf]
-ref=app/org.flathub.Bridgecommand/x86_64/main
