@@ -1,4 +1,4 @@
-This are my instructions for building a flatpak of:
+These are my instructions for building a flatpak of:
 https://github.com/bridgecommand/bc/
 
 I built it on Windows using Ubuntu WSL Linux for Windows but it will build on any linux.
@@ -13,78 +13,12 @@ flatpak remote-add --if-not-exists --user flathub https://dl.flathub.org/repo/fl
 
 Build manifest yaml file org.flathub.Bridgecommand.yml:
 
+See:
+https://github.com/vpelss/bridgecommand_flatpak/blob/main/org.flathub.Bridgecommand.yml
+
 Notes:
 To make in another directory: make -C dir
 To cmake in other directories : cmake -Bbin -Ssrc
-
-
-id: org.flathub.Bridgecommand
-runtime: org.freedesktop.Platform
-runtime-version: "23.08"
-sdk: org.freedesktop.Sdk
-command: wrapperBridgecommand 
-
-modules:
-  - name: portaudio
-    buildsystem: cmake
-    build-commands:
-    sources:
-      - type: git
-        url: https://github.com/PortAudio/portaudio.git
-        commit: 242a024
-  - name: OpenXR
-    buildsystem: cmake
-    build-commands:
-    sources:
-      - type: git
-        url: https://github.com/KhronosGroup/OpenXR-SDK.git
-        commit: main
-  - name: bc
-    buildsystem: simple
-    build-commands:
-      - mkdir /app/bin
-      - cmake -Bbin -Ssrc
-      - make -C bin
-      - cp -r /run/build/bc/bin/* ${FLATPAK_DEST}/bin/
-    sources:
-      - type: git
-        url: https://github.com/bridgecommand/bc.git
-        commit: main
-  - name: wrapperBridgecommand
-    buildsystem: simple
-    build-commands:
-      - install -Dm755 wrapperbc.sh /app/bin/wrapperBridgecommand
-    sources:
-      - type: script
-        dest-filename: wrapperbc.sh
-        commands:
-          - cd /app/bin
-          - ./bridgecommand
-
-finish-args:  
-  - --socket=fallback-x11
-  - --share=ipc
-  - --device=dri 
-  - --share=network 
-  - --persist=. 
-  - --socket=pulseaudio 
-
-cleanup:
-  - /bin/BridgeCommand.app
-  - /bin/CMakeFiles
-  - /bin/controller
-  - /bin/createDeb
-  - /bin/editor
-  - /bin/iniEditor
-  - /bin/launcher
-  - /bin/libs
-  - /bin/multiplayerHub
-  - /bin/repeater
-  - /bin/*.exe
-  - /bin/*.dll
-  - /bin/*.bat
-
-
 
 Build the flatpak
 
@@ -121,18 +55,11 @@ flatpak --user install bc_local org.flathub.Bridgecommand
 
 Create org.flathub.Bridgecommand.flatpakref if you want a one line install (see example below)
 
+See:
+https://github.com/vpelss/bridgecommand_flatpak/blob/main/org.flathub.Bridgecommand.flatpakref
+
 Important note:  no trailing line spaces in org.flathub.Bridgecommand.flatpakref or the following will fail.
 install github repo 
-
-[Flatpak Ref]
-Title=Bridgecommand
-Name=org.flathub.Bridgecommand
-Branch=main
-Url=https://emogic.com/bc/
-SuggestRemoteName=BridgecommandRemoteEmogic
-RuntimeRepo=https://dl.flathub.org/repo/flathub.flatpakrepo
-IsRuntime=false
-
 
 Distribute:
 
@@ -211,6 +138,9 @@ git commit -a
 git push -f -v --mirror
 
 -------------------
+
+
+Ignore the following
 Create gpg keys:
 
 gpg --quick-gen-key vpelss@gmail.com
