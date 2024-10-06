@@ -36,12 +36,12 @@ flatpak-builder --force-clean --user --install-deps-from=flathub --repo=bridgeco
 
 Explanation during build process
 
--flatpak-builder creates .flatpak-builder/build where modules are built separately
--flatpak-builder creates builddir (as per example) where built modules are merged
--flatpak-builder creates remository (bridgecommand_flatpak in above example). These will be the actual installed flatpak files
--modules are downloaded and compiled in .flatpak-builder/build/module_name and will show if -v is used, as /run/build/module_name
--compiled files go in builddir/files. These ago in /app in the actual flatpak. builddir, the local copy, will contain bin, include, lib, share and they are put into the flatpak
--${FLATPAK_DEST} in the manifest file is /app in the flatpak
+flatpak-builder creates .flatpak-builder/build where modules are built separately.
+flatpak-builder creates builddir (as per example) where built modules are merged.
+flatpak-builder creates remository (bridgecommand_flatpak in above example). These will be the actual installed flatpak files.
+Modules are downloaded and compiled in .flatpak-builder/build/module_name and will show if -v is used, as /run/build/module_name
+Compiled files go in builddir/files. These ago in /app in the actual flatpak. builddir, the local copy, will contain bin, include, lib, share and they are put into the flatpak.
+-${FLATPAK_DEST} in the manifest file is /app in the flatpak.
 
 Test repository install locally:
 
@@ -140,7 +140,7 @@ git push -f -v --mirror
 -------------------
 
 
-Ignore the following
+Ignore the following. Signing is the devils work.
 Create gpg keys:
 
 gpg --quick-gen-key vpelss@gmail.com
