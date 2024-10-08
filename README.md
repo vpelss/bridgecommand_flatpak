@@ -10,7 +10,6 @@ sudo apt install git cmake gcc
 sudo apt install flatpak  
 sudo apt install flatpak-builder  
 flatpak remote-add \--if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo  
-flatpak remote-add \--if-not-exists \--user flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 Build manifest yaml file org.flathub.Bridgecommand.yml:
 
