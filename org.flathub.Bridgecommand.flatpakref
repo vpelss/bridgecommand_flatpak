@@ -1,7 +1,7 @@
 [Flatpak Ref]
 Title=Bridgecommand
 Name=org.flathub.Bridgecommand
-Branch=main
+Branch=master
 Url=https://emogic.com/bc/
 SuggestRemoteName=BridgecommandRemoteEmogic
 RuntimeRepo=https://dl.flathub.org/repo/flathub.flatpakrepo
