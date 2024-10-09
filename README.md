@@ -9,7 +9,7 @@ sudo apt update
 sudo apt install git cmake gcc  
 sudo apt install flatpak  
 sudo apt install flatpak-builder  
-flatpak remote-add \--if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo  
+flatpak remote-add \--if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 Build manifest yaml file org.flathub.Bridgecommand.yml:
 
@@ -26,13 +26,13 @@ my paths
 /home/adsiltia/.flatpak-builder : where the modules are built  
 /home/adsiltia/builddir : build directory  
 /home/adsiltia/bridgecommand\_flatpak : git cloned manifest   
-/home/adsiltia/bridgecommand\_flatpak\_repo : local built repo
+/home/adsiltia/bridgecommand\_flatpak/repo : repo files
 
 I am building for ‘system’ not ‘user’, therefore I must use sudo
 
 Install and place in local repository:
 
-sudo flatpak-builder \--force-clean \--install-deps-from=flathub \--repo=/home/adsiltia/bridgecommand\_flatpak\_repo \--state-dir=/home/adsiltia/.flatpak-builder \--install \~/builddir  \~/bridgecommand\_flatpak/org.flathub.Bridgecommand.yml
+sudo flatpak-builder \--force-clean \--install-deps-from=flathub \--repo=/home/adsiltia/bridgecommand\_flatpak/repo \--state-dir=/home/adsiltia/.flatpak-builder \--install \~/builddir  \~/bridgecommand\_flatpak/org.flathub.Bridgecommand.yml
 
 Just install:
 
@@ -40,13 +40,13 @@ sudo flatpak-builder \--force-clean \--install-deps-from=flathub \--state-dir=/h
 
 Just create repo:
 
-sudo flatpak-builder \--force-clean \--install-deps-from=flathub \--repo=/home/adsiltia/bridgecommand\_flatpak\_repo  \--state-dir=/home/adsiltia/.flatpak-builder \--export-only \~/builddir \~/bridgecommand\_flatpak/org.flathub.Bridgecommand.yml
+sudo flatpak-builder \--force-clean \--install-deps-from=flathub \--repo=/home/adsiltia/bridgecommand\_flatpak/repo \--state-dir=/home/adsiltia/.flatpak-builder \--export-only \~/builddir \~/bridgecommand\_flatpak/org.flathub.Bridgecommand.yml
 
 Explanation during build process
 
 flatpak-builder creates .flatpak-builder/build where modules are built separately.  
 flatpak-builder creates builddir (as per example) where built modules are merged.  
-flatpak-builder creates remository (bridgecommand\_flatpak in above example). These will be the actual installed flatpak files.  
+flatpak-builder creates repository (bridgecommand\_flatpak in above example). These will be the actual installed flatpak files.  
 Modules are downloaded and compiled in .flatpak-builder/build/module\_name and will show if \-v is used, as /run/build/module\_name  
 Compiled files go in builddir/files. These ago in /app in the actual flatpak. builddir, the local copy, will contain bin, include, lib, share and they are put into the flatpak.  
 \-${FLATPAK\_DEST} in the manifest file is /app in the flatpak.
@@ -73,27 +73,34 @@ Distribute:
 
 1\. create single file to distribute and install locally:
 
-sudo flatpak build-bundle \~/bridgecommand\_flatpak\_repo bridgecommand.flatpak org.flathub.Bridgecommand
+mkdir \~/bridgecommand\_flatpak/bundle/  
+sudo flatpak build-bundle \~/bridgecommand\_flatpak/repo bridgecommand.flatpak org.flathub.Bridgecommand
 
 Test install:
 
 sudo flatpak install bridgecommand.flatpak
 
-2\. Download and install from internet from emogic.com:
+2\. Download and install single file bundle from internet (old version. demonstration only):
 
 curl \-O https://emogic.com/bridgecommand.flatpak
 
 sudo flatpak install \--user bridgecommand.flatpak
 
-3\. Using emogic.com as a flatpak remote repository . I have copied  \~/bridgecommand\_flatpak\_repo to [https://emogic.com/bc](https://emogic.com/bc):
+3\. **Using gthub.com as a flatpak remote repository**
 
-sudo flatpak \--no-gpg-verify remote-add emogicRemote https://emogic.com/bc
+To host on github:
+
+You must turn on Actions-\>Deployments-\>Github Pages to make github act like a web host server. eg: https://vpelss.github.io/bridgecommand\_flatpak/
+
+sudo flatpak install \-v https://vpelss.github.io/bridgecommand\_flatpak/org.flathub.Bridgecommand.flatpakref
+
+sudo flatpak \--no-gpg-verify remote-add emogicRemote https://vpelss.github.io/bridgecommand\_flatpak/repo
 
 sudo flatpak install emogicRemote org.flathub.Bridgecommand
 
 Or a one line install. I have also copied org.flathub.Bridgecommand.flatpakref there:
 
-sudo flatpak install \-v https://emogic.com/bc/org.flathub.Bridgecommand.flatpakref
+sudo flatpak install \-v https://vpelss.github.io/bridgecommand\_flatpak/org.flathub.Bridgecommand.flatpakref
 
 Run it:
 
@@ -153,7 +160,7 @@ git clone \--depth 1 https://github.com/vpelss/bridgecommand\_flatpak.git
 
 change files  
 git add \-f \*  
-git commit \-a  
+git commit \-m ‘new’ \-a  
 git push \-f \-v \--mirror
 
 \-------------------
