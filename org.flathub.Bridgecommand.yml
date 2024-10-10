@@ -1,37 +1,11 @@
 id: org.flathub.Bridgecommand
-runtime: org.freedesktop.Platform
-runtime-version: "23.08"
-sdk: org.freedesktop.Sdk
+runtime: org.kde.Platform
+runtime-version: '6.7'
+sdk: org.kde.Sdk
 command: wrapperBridgecommand 
 
-x-compat-i386-build-options: &compat-i386-build-options
-  prepend-pkg-config-path: /app/lib32/pkgconfig:/usr/lib/i386-linux-gnu/pkgconfig
-  ldflags: -L/app/lib32
-  prepend-path: /usr/lib/sdk/toolchain-i386/bin
-  env:
-    CC: i686-unknown-linux-gnu-gcc
-    CXX: i686-unknown-linux-gnu-g++
-  libdir: /app/lib32
-
 modules:
-  - name: bundle-setup
-    #build-options: *compat-i386-build-options
-    buildsystem: simple
-    build-commands:
-      - mkdir -p /app/lib/i386-linux-gnu
-      - mkdir -p /app/lib/debug/lib/i386-linux-gnu
-      - mkdir -p /app/lib/i386-linux-gnu/GL
-      - mkdir -p /app/lib/i386-linux-gnu/dri/intel-vaapi-driver
-      - install -Dm644 ld.so.conf /app/etc/ld.so.conf
-    sources:
-      - type: inline
-        dest-filename: ld.so.conf
-        contents: |
-          /app/lib32
-          /app/lib/i386-linux-gnu
-
   - name: portaudio
-    build-options: *compat-i386-build-options
     buildsystem: cmake
     build-commands:
     sources:
@@ -39,7 +13,6 @@ modules:
         url: https://github.com/PortAudio/portaudio.git
         commit: 242a024
   - name: OpenXR
-    build-options: *compat-i386-build-options
     buildsystem: cmake
     build-commands:
     sources:
@@ -47,7 +20,6 @@ modules:
         url: https://github.com/KhronosGroup/OpenXR-SDK.git
         commit: main
   - name: bc
-    build-options: *compat-i386-build-options
     buildsystem: simple
     build-commands:
       - mkdir /app/bin
@@ -59,7 +31,6 @@ modules:
         url: https://github.com/bridgecommand/bc.git
         commit: main
   - name: wrapperBridgecommand
-    build-options: *compat-i386-build-options
     buildsystem: simple
     build-commands:
       - install -Dm755 wrapperbc.sh /app/bin/wrapperBridgecommand
@@ -69,17 +40,6 @@ modules:
         commands:
           - cd /app/bin
           - ./bridgecommand
-
-add-extensions:
-  org.freedesktop.Platform.Compat.i386:
-    directory: lib/i386-linux-gnu
-    version: '23.08'
-
-  # This is not strictly required, but needed for debugging 32-bit programs
-  org.freedesktop.Platform.Compat.i386.Debug:
-    directory: lib/debug/lib/i386-linux-gnu
-    version: '23.08'
-    no-autodownload: true
 
 finish-args:  
   - --allow=multiarch
