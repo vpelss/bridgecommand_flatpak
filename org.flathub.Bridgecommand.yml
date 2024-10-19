@@ -1,20 +1,19 @@
 id: org.flathub.Bridgecommand
 runtime: org.kde.Platform
-runtime-version: '6.7'
+runtime-version: "6.7"
 sdk: org.kde.Sdk
-command: wrapperBridgecommand 
-
+command: wrapperBridgecommand
 modules:
   - name: portaudio
     buildsystem: cmake
-    build-commands:
+    build-commands: null
     sources:
       - type: git
         url: https://github.com/PortAudio/portaudio.git
         commit: 242a024
   - name: OpenXR
     buildsystem: cmake
-    build-commands:
+    build-commands: null
     sources:
       - type: git
         url: https://github.com/KhronosGroup/OpenXR-SDK.git
@@ -40,16 +39,14 @@ modules:
         commands:
           - cd /app/bin
           - ./bridgecommand
-
-finish-args:  
+finish-args:
   - --allow=multiarch
   - --socket=fallback-x11
   - --share=ipc
-  - --device=dri 
-  - --share=network 
-  - --persist=. 
-  - --socket=pulseaudio 
-
+  - --device=dri
+  - --share=network
+  - --persist=.
+  - --socket=pulseaudio
 cleanup:
   - /bin/BridgeCommand.app
   - /bin/CMakeFiles
