@@ -17,4 +17,4 @@ flatpak run org.flathub.Bridgecommand
 
 Instructions for how the flatpak was built:
 
-https://github.com/vpelss/bridgecommand_flatpak/blob/main/Instructions.md
+https://raw.githubusercontent.com/vpelss/bridgecommand_flatpak/refs/heads/main/Instructions.txt
