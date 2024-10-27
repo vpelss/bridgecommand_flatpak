@@ -1,38 +1,25 @@
 id: org.flathub.Bridgecommand
 runtime: org.freedesktop.Platform
-runtime-version: "23.08"
+runtime-version: "24.08"
 sdk: org.freedesktop.Sdk
 command: wrapperBridgecommand
 
-add-extensions:
-#  org.freedesktop.Platform.Compat.i386:
-#   directory: lib/i386-linux-gnu
-#   version: '23.08'
-
-modules:
-  - name: portaudio
-    #build-options: *compat-i386-build-options
-
-    build-options:
-     arch:
+x-compat-build-options: &compat-build-options
+    arch:
       i386:
         config-opts:
         #- "--build=i586-unknown-linux-gnu"
-       # - "--enable-libmpx"
       aarch64:
         env:
           #CC: gcc-aarch64-linux-gnu
-          #CXX: gcc-aarch64-linux-gnu++
         config-opts:
         #- "--build=arm-unknown-linux-gnueabi"
-        #- "--with-float=hard"
-        #- "--with-mode=thumb"
-        #- "--with-fpu=vfpv3-d16"
-        #- "--with-arch=armv7-a"
       x86_64:
         config-opts:
-       # - "--enable-libmpx"
 
+modules:
+  - name: portaudio
+    #build-options: *compat-build-options
     buildsystem: cmake
     build-commands: 
     sources:
@@ -40,7 +27,7 @@ modules:
         url: https://github.com/PortAudio/portaudio.git
         commit: 242a024
   - name: OpenXR
-    #build-options: *compat-i386-build-options
+    #build-options: *compat-build-options
     buildsystem: cmake
     build-commands:
     sources:
@@ -48,7 +35,7 @@ modules:
         url: https://github.com/KhronosGroup/OpenXR-SDK.git
         commit: main
   - name: bc
-    #build-options: *compat-i386-build-options
+    #build-options: *compat-build-options
     buildsystem: simple
     build-commands:
       - mkdir /app/bin
@@ -60,7 +47,7 @@ modules:
         url: https://github.com/bridgecommand/bc.git
         commit: main
   - name: wrapperBridgecommand
-    #build-options: *compat-i386-build-options
+    #build-options: *compat-build-options
     buildsystem: simple
     build-commands:
       - install -Dm755 wrapperbc.sh /app/bin/wrapperBridgecommand
