@@ -1486,6 +1486,7 @@ scan-build:
 	util/run-scan-build /tmp/snis-scan-build-output
 	xdg-open /tmp/snis-scan-build-output/*/index.html
 
+ifeq ("x","y")
 # opus stuff for voice chat
 opus-1.3.1.tar.gz:
 	wget https://archive.mozilla.org/pub/opus/opus-1.3.1.tar.gz
@@ -1496,5 +1497,6 @@ opus-1.3.1:	opus-1.3.1.tar.gz
 
 libopus.a:	opus-1.3.1
 	(cd opus-1.3.1 && ./configure && make && cp ./.libs/libopus.a ..)
+endif
 
 include Makefile.depend
