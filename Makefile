@@ -500,8 +500,9 @@ PNGCFLAGS:=$(shell $(PKG_CONFIG) --cflags libpng)
 SDLLIBS:=$(shell $(SDL2_CONFIG) --libs)
 SDLCFLAGS:=$(shell $(SDL2_CONFIG) --cflags)
 
-GLEWLIBS:=$(shell $(PKG_CONFIG) --libs-only-l glew)
-GLEWCFLAGS:=$(shell $(PKG_CONFIG) --cflags glew)
+#vinman
+#GLEWLIBS:=$(shell $(PKG_CONFIG) --libs-only-l glew)
+#GLEWCFLAGS:=$(shell $(PKG_CONFIG) --cflags glew)
 
 ifeq ($(OSX), 0)
 	CRYPTLIBS:=-lcrypt
