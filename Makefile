@@ -451,9 +451,11 @@ endif
 
 #vinman
 #SNDLIBS:=$(shell $(PKG_CONFIG) --libs portaudio-2.0 vorbisfile)
+SNDLIBS:="-lportaudio -lasound -lm -lpthread -lvorbisfile"
 #SNDFLAGS:=-DWITHAUDIOSUPPORT $(shell $(PKG_CONFIG) --cflags portaudio-2.0) -DDATADIR=\"${DATADIR}\"
-#_OGGOBJ=ogg_to_pcm.o
-#_SNDOBJS=wwviaudio.o
+SNDFLAGS:=-DWITHAUDIOSUPPORT -pthread -DDATADIR=\"${DATADIR}\"
+_OGGOBJ=ogg_to_pcm.o
+_SNDOBJS=wwviaudio.o
 
 ifeq (${E},1)
 STOP_ON_WARN=-Werror
