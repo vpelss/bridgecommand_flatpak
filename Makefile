@@ -1,6 +1,6 @@
 # To compile with voice chat, WITHVOICECHAT=yes,
 # for no voice chat, make WITHVOICECHAT=no
-WITHVOICECHAT=yes
+WITHVOICECHAT=no
 USE_SNIS_XWINDOWS_HACKS=1
 PKG_CONFIG?=pkg-config
 SDL2_CONFIG?=sdl2-config
@@ -1498,5 +1498,33 @@ opus-1.3.1:	opus-1.3.1.tar.gz
 libopus.a:	opus-1.3.1
 	(cd opus-1.3.1 && ./configure && make && cp ./.libs/libopus.a ..)
 endif
+
+
+# for no voice chat, make WITHVOICECHAT=no WITHVOICECHAT=yes
+OPUS_ARCHIVE=opus-1.3.1.tar.gz
+OPUS_URL=https://archive.mozilla.org/pub/opus/${OPUS_ARCHIVE}
+# if you do not want this makefile to use wget to fetch opus from mozilla.org
+# but would prefer to prefetch it (for example, inside a flatpak) then set this
+# variable to the location of the prefetched opus archive, e.g.:
+#
+#   make PREFETCHED_OPUS=../../opus-1.3.1.tar.gz
+#
+#PREFETCHED_OPUS?=
+
+ # opus stuff for voice chat
+ opus-1.3.1.tar.gz:
+ifdef PREFETCHED_OPUS
+	cp ${PREFETCHED_OPUS} .
+else
+	wget ${OPUS_URL}
+endif
+ 	md5sum opus-1.3.1.tar.gz | grep d7c07db796d21c9cf1861e0c2b0c0617
+ 
+ opus-1.3.1:	opus-1.3.1.tar.gz
+	tar xzf opus-1.3.1.tar.gz
+
+libopus.a:	opus-1.3.1
+	(cd opus-1.3.1 && ./configure && make && cp ./.libs/libopus.a ..)
+
 
 include Makefile.depend
