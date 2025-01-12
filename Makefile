@@ -449,10 +449,11 @@ RDYNAMIC=
 $(echo ${USING_CLANG})
 endif
 
-SNDLIBS:=$(shell $(PKG_CONFIG) --libs portaudio-2.0 vorbisfile)
-SNDFLAGS:=-DWITHAUDIOSUPPORT $(shell $(PKG_CONFIG) --cflags portaudio-2.0) -DDATADIR=\"${DATADIR}\"
-_OGGOBJ=ogg_to_pcm.o
-_SNDOBJS=wwviaudio.o
+#vinman
+#SNDLIBS:=$(shell $(PKG_CONFIG) --libs portaudio-2.0 vorbisfile)
+#SNDFLAGS:=-DWITHAUDIOSUPPORT $(shell $(PKG_CONFIG) --cflags portaudio-2.0) -DDATADIR=\"${DATADIR}\"
+#_OGGOBJ=ogg_to_pcm.o
+#_SNDOBJS=wwviaudio.o
 
 ifeq (${E},1)
 STOP_ON_WARN=-Werror
