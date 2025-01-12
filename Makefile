@@ -1486,6 +1486,7 @@ scan-build:
 	util/run-scan-build /tmp/snis-scan-build-output
 	xdg-open /tmp/snis-scan-build-output/*/index.html
 
+#vinman
 ifeq ("x","y")
 # opus stuff for voice chat
 opus-1.3.1.tar.gz:
