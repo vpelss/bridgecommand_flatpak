@@ -509,7 +509,8 @@ SDLCFLAGS:=$(shell $(SDL2_CONFIG) --cflags)
 #vinman
 #GLEWLIBS:=$(shell $(PKG_CONFIG) --libs-only-l glew)
 #GLEWCFLAGS:=$(shell $(PKG_CONFIG) --cflags glew)
-GLEWLIBS:='-lGLEW'
+# -L/usr/lib64 -lGLEW -lGL -lX11 -lGLU
+GLEWLIBS:='-lGLEW -lGL'
 #-lgl -lx11 -lglu'
 GLEWCFLAGS:=""
 
