@@ -451,9 +451,9 @@ endif
 
 #vinman
 #SNDLIBS:=$(shell $(PKG_CONFIG) --libs portaudio-2.0 vorbisfile)
-#SNDLIBS:="-lportaudio -lasound -lm -lpthread -lvorbisfile"
 #SNDFLAGS:=-DWITHAUDIOSUPPORT $(shell $(PKG_CONFIG) --cflags portaudio-2.0) -DDATADIR=\"${DATADIR}\"
-#SNDFLAGS:=-DWITHAUDIOSUPPORT -pthread -DDATADIR=\"${DATADIR}\"
+SNDLIBS:='-lportaudio -lasound -lm -lpthread -lvorbisfile'
+SNDFLAGS:=-DWITHAUDIOSUPPORT -pthread -DDATADIR=\"${DATADIR}\"
 _OGGOBJ=ogg_to_pcm.o
 _SNDOBJS=wwviaudio.o
 
@@ -509,7 +509,7 @@ SDLCFLAGS:=$(shell $(SDL2_CONFIG) --cflags)
 #vinman
 #GLEWLIBS:=$(shell $(PKG_CONFIG) --libs-only-l glew)
 #GLEWCFLAGS:=$(shell $(PKG_CONFIG) --cflags glew)
-#GLEWLIBS:="-lGLEW -lGL -lX11 -GLU"
+GLEWLIBS:='-lGLEW -lGL -lX11 -GLU'
 GLEWCFLAGS:=""
 
 ifeq ($(OSX), 0)
