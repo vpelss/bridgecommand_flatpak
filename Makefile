@@ -510,8 +510,7 @@ SDLCFLAGS:=$(shell $(SDL2_CONFIG) --cflags)
 #GLEWLIBS:=$(shell $(PKG_CONFIG) --libs-only-l glew)
 #GLEWCFLAGS:=$(shell $(PKG_CONFIG) --cflags glew)
 # -L/usr/lib64 -lGLEW -lGL -lX11 -lGLU
-GLEWLIBS:='-lGLEW -lGL'
-#-lgl -lx11 -lglu'
+GLEWLIBS:='-lGLEW'
 GLEWCFLAGS:=""
 
 ifeq ($(OSX), 0)
