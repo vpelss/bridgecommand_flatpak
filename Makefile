@@ -505,7 +505,7 @@ SDLCFLAGS:=$(shell $(SDL2_CONFIG) --cflags)
 #vinman
 #GLEWLIBS:=$(shell $(PKG_CONFIG) --libs-only-l glew)
 #GLEWCFLAGS:=$(shell $(PKG_CONFIG) --cflags glew)
-GLEWLIBS:="-lGLEW -lGL -lX11"
+GLEWLIBS:="-lGLEW -lGL -lX11 -GLU"
 GLEWCFLAGS:=""
 
 ifeq ($(OSX), 0)
