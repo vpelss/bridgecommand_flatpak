@@ -9,7 +9,8 @@ SDL2_CONFIG?=sdl2-config
 OSX=0
 
 # -lrt is only needed for clock_gettime() and only for glibc before 2.17
-LRTLIB=$(shell ./check_for_lrt.sh -q)
+#vinman
+#LRTLIB=$(shell ./check_for_lrt.sh -q)
 
 INSTALL ?= install
 AWK ?= awk
