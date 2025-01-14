@@ -453,7 +453,7 @@ endif
 #SNDLIBS:=$(shell $(PKG_CONFIG) --libs portaudio-2.0 vorbisfile)
 #SNDFLAGS:=-DWITHAUDIOSUPPORT $(shell $(PKG_CONFIG) --cflags portaudio-2.0) -DDATADIR=\"${DATADIR}\"
 #SNDLIBS:='-lportaudio -lasound -lm -lpthread -lvorbisfile'
-SNDLIBS:=' -lasound -lm -lpthread -lvorbisfile'
+SNDLIBS:=-lasound -lm -lpthread -lvorbisfile
 SNDFLAGS:=-DWITHAUDIOSUPPORT -pthread -DDATADIR=\"${DATADIR}\"
 _OGGOBJ=ogg_to_pcm.o
 _SNDOBJS=wwviaudio.o
