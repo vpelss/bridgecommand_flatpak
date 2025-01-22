@@ -4,7 +4,7 @@ Install flatpak:
 
 sudo apt install flatpak
 
-Instal Bridgecommand:
+Install Bridgecommand:
 
 sudo flatpak install -v https://vpelss.github.io/bridgecommand_flatpak/org.flathub.Bridgecommand.flatpakref
 
