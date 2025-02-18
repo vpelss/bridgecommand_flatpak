@@ -4,59 +4,6 @@ runtime-version: "23.08"
 sdk: org.freedesktop.Sdk
 command: wrapperBridgecommand
 
-x-compat-build-options: &compat-build-options
-    arch:
-      i386:
-        config-opts:
-        #- "--build=i586-unknown-linux-gnu"
-      aarch64:
-        env:
-          #CC: gcc-aarch64-linux-gnu
-        config-opts:
-        #- "--build=arm-unknown-linux-gnueabi"
-      x86_64:
-        config-opts:
-
-modules:
-  - name: portaudio
-    #build-options: *compat-build-options
-    buildsystem: cmake
-    build-commands: 
-    sources:
-      - type: git
-        url: https://github.com/PortAudio/portaudio.git
-        commit: 242a024
-  - name: OpenXR
-    #build-options: *compat-build-options
-    buildsystem: cmake
-    build-commands:
-    sources:
-      - type: git
-        url: https://github.com/KhronosGroup/OpenXR-SDK.git
-        commit: main
-  - name: bc
-    #build-options: *compat-build-options
-    buildsystem: simple
-    build-commands:
-      - mkdir /app/bin
-      - cmake -Bbin -Ssrc
-      - make -C bin
-      - cp -r /run/build/bc/bin/* ${FLATPAK_DEST}/bin/
-    sources:
-      - type: git
-        url: https://github.com/bridgecommand/bc.git
-        commit: main
-  - name: wrapperBridgecommand
-    #build-options: *compat-build-options
-    buildsystem: simple
-    build-commands:
-      - install -Dm755 wrapperbc.sh /app/bin/wrapperBridgecommand
-    sources:
-      - type: script
-        dest-filename: wrapperbc.sh
-        commands:
-          - cd /app/bin
-          - ./bridgecommand
 finish-args:
   - --allow=multiarch
   - --socket=fallback-x11
@@ -79,3 +26,50 @@ cleanup:
   - /bin/*.exe
   - /bin/*.dll
   - /bin/*.bat
+  
+modules:
+
+  - name: portaudio
+    #build-options: *compat-build-options
+    buildsystem: cmake
+    build-commands: 
+    sources:
+      - type: git
+        url: https://github.com/PortAudio/portaudio.git
+        commit: 242a024
+        
+  - name: OpenXR
+    #build-options: *compat-build-options
+    buildsystem: cmake
+    build-commands:
+    sources:
+      - type: git
+        url: https://github.com/KhronosGroup/OpenXR-SDK.git
+        commit: main
+        
+  - name: bc
+    #build-options: *compat-build-options
+    buildsystem: simple
+    build-commands:
+      - mkdir /app/bin
+      - cmake -Bbin -Ssrc
+      - make -C bin
+      - cp -r /run/build/bc/bin/* ${FLATPAK_DEST}/bin/
+    sources:
+      - type: git
+        url: https://github.com/bridgecommand/bc.git
+        commit: main
+        
+  - name: wrapperBridgecommand
+    #build-options: *compat-build-options
+    buildsystem: simple
+    build-commands:
+      - install -Dm755 wrapperbc.sh /app/bin/wrapperBridgecommand
+    sources:
+      - type: script
+        dest-filename: wrapperbc.sh
+        commands:
+          - cd /app/bin
+          - ./bridgecommand
+          
+
