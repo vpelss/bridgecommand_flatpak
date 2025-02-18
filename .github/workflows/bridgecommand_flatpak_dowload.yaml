@@ -31,13 +31,7 @@ jobs:
       uses: docker/setup-qemu-action@v2
       with:
         platforms: arm64
-        
-    
-      #with:
-       # persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
-        #fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
-    
-    
+     
     - uses: flatpak/flatpak-github-actions/flatpak-builder@v6
       with:
         bundle: org.flathub.bridgecommand
@@ -45,22 +39,14 @@ jobs:
         cache-key: flatpak-builder-${{ github.sha }}
         arch: ${{ matrix.arch }}
 
-
-        
-    - name: See
-      run: |   
-        ls -l
-    - name: Send to my git
-      run: |
-        git config --global --add safe.directory /__w/bridgecommand_flatpak/bridgecommand_flatpak
-        git config --global --add safe.directory /github/workspace
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git add -f repo/*
-        git commit -m "I am commited"
-        git remote set-url origin https://git:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-        git push origin main     
-        
-      # https://github.com/ad-m/github-push-action
-      # https://github.com/orgs/community/discussions/68891
-      # https://github.com/orgs/community/discussions/25234
+    - name: Upload Artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: io.github.bridgecommand.${{ matrix.arch }}
+        path: io.github.bridgecommand.${{ matrix.arch }}
+ 
+    - name: upload binaries to release
+      uses: softprops/action-gh-release@v2
+      with:
+          tag_name: "Download"
+          files: io.github.bridgecommand.${{ matrix.arch }}
