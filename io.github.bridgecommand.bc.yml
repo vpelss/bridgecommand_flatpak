@@ -2,7 +2,7 @@ id: io.github.bridgecommand.bc
 runtime: org.freedesktop.Platform
 runtime-version: "24.08"
 sdk: org.freedesktop.Sdk
-command: wrapperBridgecommand
+command: bc.sh
 
 finish-args:
   - --allow=multiarch
@@ -46,10 +46,9 @@ modules:
         commit: main
         
   - name: bc
-    #build-options: *compat-build-options
     buildsystem: simple
     build-commands:
-      - install -Dm755 wrapperbc.sh /app/bin/wrapperBridgecommand
+      - install -Dm755 wrapperbc.sh /app/bin/bc.sh
       - mkdir /app/bin
       - cmake -Bbin -Ssrc
       - make -C bin
