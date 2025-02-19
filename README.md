@@ -6,11 +6,11 @@ sudo apt install flatpak
 
 Install Bridgecommand:
 
-flatpak install --user https://vpelss.github.io/bridgecommand_flatpak/org.flathub.Bridgecommand.flatpakref
+flatpak install --user https://vpelss.github.io/bridgecommand_flatpak/io.github.bridgecommand.bc.flatpakref
 
 Run it:
 
-flatpak run org.flathub.Bridgecommand
+flatpak run io.github.bridgecommand.bc
 
 ----------------------
 
