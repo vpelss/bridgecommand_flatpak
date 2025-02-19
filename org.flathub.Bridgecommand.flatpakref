@@ -1,6 +1,6 @@
 [Flatpak Ref]
 Title=Bridgecommand
-Name=org.flathub.Bridgecommand
+Name=io.github.bridgecommand.bc
 Branch=master
 Url=https://vpelss.github.io/bridgecommand_flatpak/repo
 SuggestRemoteName=BridgecommandRemoteEmogic
