@@ -1,6 +1,6 @@
 id: org.flathub.Bridgecommand
 runtime: org.freedesktop.Platform
-runtime-version: "23.08"
+runtime-version: "24.08"
 sdk: org.freedesktop.Sdk
 command: wrapperBridgecommand
 
@@ -30,7 +30,6 @@ cleanup:
 modules:
 
   - name: portaudio
-    #build-options: *compat-build-options
     buildsystem: cmake
     build-commands: 
     sources:
@@ -39,7 +38,6 @@ modules:
         commit: 242a024
         
   - name: OpenXR
-    #build-options: *compat-build-options
     buildsystem: cmake
     build-commands:
     sources:
@@ -51,6 +49,7 @@ modules:
     #build-options: *compat-build-options
     buildsystem: simple
     build-commands:
+      - install -Dm755 wrapperbc.sh /app/bin/wrapperBridgecommand
       - mkdir /app/bin
       - cmake -Bbin -Ssrc
       - make -C bin
@@ -59,17 +58,12 @@ modules:
       - type: git
         url: https://github.com/bridgecommand/bc.git
         commit: main
-        
-  - name: wrapperBridgecommand
-    #build-options: *compat-build-options
-    buildsystem: simple
-    build-commands:
-      - install -Dm755 wrapperbc.sh /app/bin/wrapperBridgecommand
     sources:
       - type: script
         dest-filename: wrapperbc.sh
         commands:
           - cd /app/bin
           - ./bridgecommand
+          
           
 
