@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Bridge Command
-Exec=bridgecommand
+Exec=bc.sh
 Icon=io.github.bridgecommand.bc
 Type=Application
 Categories=Game
