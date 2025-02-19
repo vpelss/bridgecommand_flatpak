@@ -1,5 +1,5 @@
 on: workflow_dispatch
-name: bridgecommand_make_repo
+name: bridgecommand_make_downloads
 jobs:
   flatpak:
     name: "Flatpak"
