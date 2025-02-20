@@ -35,7 +35,7 @@ jobs:
      
     - uses: flatpak/flatpak-github-actions/flatpak-builder@v6
       with:
-        bundle: io.github.bridgecommand.bc
+        bundle: io.github.bridgecommand.bc.${{ matrix.arch }}
         manifest-path: io.github.bridgecommand.bc.yml
         cache-key: flatpak-builder-${{ github.sha }}
         arch: ${{ matrix.arch }}
