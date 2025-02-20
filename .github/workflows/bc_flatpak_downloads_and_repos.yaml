@@ -46,6 +46,7 @@ jobs:
         git config --global --add safe.directory /github/workspace
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git pull #required for second repo push
         git add -f repo/*
         git commit -m "I am commited"
         git remote set-url origin https://git:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
