@@ -1,0 +1,65 @@
+on: workflow_dispatch
+name: bc_make_downloads_and_repos_aarch64
+jobs:
+  flatpak:
+    name: "Flatpak"
+    runs-on: ubuntu-latest
+    permissions:                # Job-level permissions configuration starts here
+      contents: write           # 'write' access to repository contents
+      pull-requests: write      # 'write' access to pull requests
+    container:
+      image: bilelmoussaoui/flatpak-github-actions:gnome-44
+      options: --privileged
+
+    strategy:
+      matrix:
+        #arch: [x86_64, aarch64]
+        arch: [aarch64]
+      # Don't fail the whole workflow if one architecture fails
+      fail-fast: false
+      
+    steps:  
+    - uses: actions/checkout@v4
+
+    # Docker is required by the docker/setup-qemu-action which enables emulation
+    - name: Install deps
+      if: ${{ matrix.arch != 'x86_64' }}
+      run: |
+        dnf -y install docker
+    - name: Set up QEMU
+      if: ${{ matrix.arch != 'x86_64' }}
+      id: qemu
+      uses: docker/setup-qemu-action@v2
+      with:
+        platforms: arm64
+     
+    - uses: flatpak/flatpak-github-actions/flatpak-builder@v6
+      with:
+        bundle: io.github.bridgecommand.bc.${{ matrix.arch }}
+        manifest-path: io.github.bridgecommand.bc.yml
+        cache-key: flatpak-builder-${{ github.sha }}
+        arch: ${{ matrix.arch }}
+
+    - name: Send to my git
+      run: |
+        git config --global --add safe.directory /__w/bridgecommand_flatpak/bridgecommand_flatpak
+        git config --global --add safe.directory /github/workspace
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git pull #required for second repo push
+        git add -f repo/*
+        git commit -m "I am commited"
+        git remote set-url origin https://git:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+        git push origin main     
+        
+    - name: Upload Artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: io.github.bridgecommand.bc.${{ matrix.arch }}
+        path: io.github.bridgecommand.bc.${{ matrix.arch }}
+ 
+    - name: upload binaries to release
+      uses: softprops/action-gh-release@v2
+      with:
+          tag_name: "Download"
+          files: io.github.bridgecommand.bc.${{ matrix.arch }}
